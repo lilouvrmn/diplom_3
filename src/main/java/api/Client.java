@@ -1,20 +1,16 @@
+package api;
+
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 
-public class Client {
+import static constants.Urls.BASE_URL;
 
-    private static final String BASE_URL = "https://stellarburgers.nomoreparties.site";
+public class Client {
 
     protected RequestSpecification getSpec() {
         return new RequestSpecBuilder()
                 .setContentType(ContentType.JSON)
-                .setBaseUri(BASE_URL)
-                .build();
-    }
-
-    protected RequestSpecification getSpecForDelete() {
-        return new RequestSpecBuilder()
                 .setBaseUri(BASE_URL)
                 .build();
     }
