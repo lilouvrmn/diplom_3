@@ -16,7 +16,8 @@ public class ConstructorTest {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "/Users/lilou/your/path/chromedriver");
+        String chromeDriverPath = System.getenv("CHROME_DRIVER_PATH");
+        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eacfecb-bb52-4894-b368-2aeb74927319" name="Changes" comment="!">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/Credentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/UserSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/constants/RandomData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/constants/Urls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/PasswordRecoveryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/ProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConstructorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EntranceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LogoutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SetUpAndClose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SwitchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PasswordRecovery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PersonalAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegistrationForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserClient.java" beforeDir="false" />
-    </list>
+    <list default="true" id="4eacfecb-bb52-4894-b368-2aeb74927319" name="Changes" comment="Allure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,13 +142,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718288482442</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Все тесты">
+      <option name="closed" value="true" />
+      <created>1718301193671</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718301193671</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Allure">
+      <option name="closed" value="true" />
+      <created>1718301371194</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718301371194</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="h" />
     <MESSAGE value="!" />
-    <option name="LAST_COMMIT_MESSAGE" value="!" />
+    <MESSAGE value="Все тесты" />
+    <MESSAGE value="Allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Allure" />
   </component>
 </project>
